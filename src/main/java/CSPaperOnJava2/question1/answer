@@ -1,0 +1,13 @@
+PartA:
+A TreeSet stores elements in sorted order
+A Set does not allow for duplicate values
+
+PartB:
+                Checkpoint A Checkpoint B Checkpoint C Checkpoint D Checkpoint E
+list.isEmpty()      S           S               S           S           S
+num % n == 0        A           A               S           S           S
+result.isEmpty()    A           A               A           N           N
+
+PartC:
+Uses a for-each loop to look at each key from m to sum the numbers in the inner
+sets, adding the key to a set if the sum equals the associated key
