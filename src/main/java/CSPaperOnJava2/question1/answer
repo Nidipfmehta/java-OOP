@@ -4,9 +4,9 @@ A Set does not allow for duplicate values
 
 PartB:
                 Checkpoint A Checkpoint B Checkpoint C Checkpoint D Checkpoint E
-list.isEmpty()      S           S               S           S           S
+list.isEmpty()      S           N               N           S           S
 num % n == 0        A           A               S           S           S
-result.isEmpty()    A           A               A           N           N
+result.isEmpty()    A           A               S           N           S
 
 PartC:
 Uses a for-each loop to look at each key from m to sum the numbers in the inner
